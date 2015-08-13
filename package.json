@@ -1,0 +1,46 @@
+{
+  "name": "define-error",
+  "version": "0.0.0",
+  "description": "Define errors without frills, but with stack traces and instanceof support.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonpincin/define-error.git"
+  },
+  "keywords": [
+    "create",
+    "error",
+    "stack",
+    "stacktrace",
+    "instanceof"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonpincin/define-error/issues"
+  },
+  "homepage": "https://github.com/jasonpincin/define-error",
+  "author": {
+    "name": "Jason Pincin",
+    "email": "jason@pincin.com",
+    "url": "http://jason.pincin.com/"
+  },
+  "contributors": [],
+  "devDependencies": {
+    "@jasonpincin/standard": "~5.0.0-7",
+    "istanbul": "~0.3.17",
+    "opn": "~1.0.2",
+    "phantomjs": "~1.9.18",
+    "tap-dot": "~1.0.0",
+    "tap-spec": "~4.0.2",
+    "tape": "~4.1.0",
+    "zuul": "~3.2.0"
+  },
+  "dependencies": {
+    "capture-stack-trace": "~1.0.0"
+  },
+  "scripts": {
+    "test": "make npm-test",
+    "coverage": "make npm-coverage",
+    "browser-tests": "zuul -- test/*.js"
+  }
+}
