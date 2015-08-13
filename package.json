@@ -1,6 +1,6 @@
 {
   "name": "define-error",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Define errors without frills, but with stack traces and instanceof support.",
   "main": "index.js",
   "repository": {
