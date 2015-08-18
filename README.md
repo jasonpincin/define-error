@@ -3,6 +3,7 @@
 [![NPM version](https://badge.fury.io/js/define-error.png)](http://badge.fury.io/js/define-error)
 [![Build Status](https://travis-ci.org/jasonpincin/define-error.svg?branch=master)](https://travis-ci.org/jasonpincin/define-error)
 [![Coverage Status](https://coveralls.io/repos/jasonpincin/define-error/badge.png?branch=master)](https://coveralls.io/r/jasonpincin/define-error?branch=master)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/jp-define-error.svg)](https://saucelabs.com/u/jp-define-error)
 
 Define errors without frills, but with stack traces and instanceof support. 
 
@@ -82,9 +83,9 @@ Specifying `--dot` or `--spec` will change the output from the default TAP style
 Specifying `--phantom` will cause the tests to run in the headless phantom browser instead of node.
 Specifying `--grep` will only run the test files that match the given pattern.
 
-### browser tests
+### browser test
 
-`npm run browser-tests`
+`npm run browser-test`
 
 This will run the tests in all browsers (specified in .zuul.yml). Be sure to [educate zuul](https://github.com/defunctzombie/zuul/wiki/cloud-testing#2-educate-zuul) first.
 
