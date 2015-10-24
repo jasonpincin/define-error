@@ -1,7 +1,7 @@
 var test  = require('tape'),
     error = require('..')
 
-test('init function runs when making error', function (t) {
+test('init function runs when making error', { timeout: 1000 }, function (t) {
     t.plan(4)
 
     var AdvancedError = error('AdvancedError', function (message, code) {
