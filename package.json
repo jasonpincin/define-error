@@ -33,7 +33,7 @@
     "phantomjs": "~1.9.18",
     "snazzy": "~2.0.1",
     "tape": "~4.2.2",
-    "zuul": "~3.7.1"
+    "zuul": "~3.6.0"
   },
   "dependencies": {},
   "scripts": {
