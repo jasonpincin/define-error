@@ -35,9 +35,7 @@
     "phantomjs": "~1.9.18",
     "zuul": "~3.2.0"
   },
-  "dependencies": {
-    "capture-stack-trace": "~1.0.0"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "make npm-test",
     "coverage": "make npm-coverage",
