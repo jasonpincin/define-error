@@ -72,7 +72,7 @@ Create an error constructor, `CustomError(message)`. `Error` will be in the prot
 With [npm](https://npmjs.org) do:
 
 ```
-npm install define-error
+npm install --save define-error
 ```
 
 ## testing
