@@ -9,7 +9,7 @@ before_install:
 before_script:
 - npm install -g coveralls@2.10.0
 script:
-    - npm run -s travis-test
+- npm run -s travis-test
 - '[ "${TRAVIS_NODE_VERSION}" = "0.12" ] && travis_retry travis_wait npm run -s travis-browser-test || true'
 env:
   global:
